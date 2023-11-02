@@ -13,7 +13,7 @@ def caesar_cipher_encrypt(text, shift):
     return encrypted_text
 
 def main():
-    plain_text = input("Please enter a sentence sentence: ")
+    plain_text = input("Please enter a sentence : ")
     encrypted_text = caesar_cipher_encrypt(plain_text, 5)
     print("The encrypted sentence is: " + encrypted_text)
 
